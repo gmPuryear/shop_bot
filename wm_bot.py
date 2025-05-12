@@ -11,8 +11,7 @@ headers = {
 
 def get_wm_data():
 # Get the web page
-  res = requests.post(WM_URL, headers = headers)
-  # print(res.json())
+  res = requests.get(WM_URL, headers = headers)
 
   # Parse the web page
   parser = BeautifulSoup(res.text, 'html.parser')
