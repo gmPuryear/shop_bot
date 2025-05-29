@@ -1,5 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup
+import datetime as dt
 import json
 
 WM_URL = 'https://www.walmart.com/ip/24-PANINI-NFL-DONRUSS-OPTIC-VALUE-BOX/13580664574?classType=REGULAR&athbdg=L1600&from=/search'
@@ -9,32 +10,39 @@ headers = {
   'Accept-Languag': 'en-US,en;q=0.9',
 }
 
-def get_wm_data():
-# Get the web page
+def get_wm_product_data():
+  # Get the web page
   res = requests.get(WM_URL, headers = headers)
-
   # Parse the web page
-  parser = BeautifulSoup(res.text, 'html.parser')
-
-  # # Locate the <script> tag containing the JSON data
+  parser = BeautifulSoup(res.text, 'lxml')
+  # Locate the <script> tag containing the JSON data
   json_tag = parser.find("script", {"id": "__NEXT_DATA__"})
+  # If the tag is found, parse the JSON data
   if json_tag:
-  #   # parses the json string into readable format
+    # parses the json string into readable format
     full_json_data =  json.loads(json_tag.string)
-  # Prints the all data after converting python object to json string
-    print(json.dumps(full_json_data, indent=4))
-
     # sliced_item_data = full_json_data["props"]["pageProps"]["initialData"]["data"]["product"]
-    sliced_item_data = full_json_data["props"]["pageProps"]["initialData"]["data"]["product"]["conditionOffers"][0]["availabilityStatus"]
 
 
-    # saves json data to file if data is present
-    with open("walmart_json_data.json", "w", encoding = "utf-8") as file_to_write:
+    product_availability = full_json_data["props"]["pageProps"]["initialData"]["data"]["product"]["conditionOffers"][0]["availabilityStatus"]["value"]
+    product_price = full_json_data["props"]["pageProps"]["initialData"]["data"]["product"]["conditionOffers"][0]["price"]["price"]
+
+    print("product_availability: ", product_availability)
+    print("product_price: ", product_price)
+    # Prints all data after converting python object to json string
+    # print(json.dumps(full_json_data, indent=4))
+  
+    current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # saves json data to file if json_tag is found
+    with open("walmart_json_data.txt", "a", encoding = "utf-8") as file_to_write:
+      file_to_write.write("_______________________________ " + current_date_time + "_______________________________\n")
       # json.dump() writes the json data to file
-      json.dump(sliced_item_data, file_to_write, indent = 4, ensure_ascii = False)
+      json.dump(full_json_data, file_to_write, indent = 4, ensure_ascii = False)
 
-      print("Full JSON data has been saved to 'walmart_json_data.json'.")
-
+      print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'walmart_json_data.json' from {WM_URL}.")
   else:
-    print("No JSON data not found on the page.")
+    print(f"<script> tag with id=__NEXT_DATA__ not found on {WM_URL}.")
+
+# def check_wm_product_availability():
+#   if 
 
