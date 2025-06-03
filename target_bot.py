@@ -20,7 +20,7 @@ def get_target_product_data():
   # Get the web page
   res = requests.get(TARGET_URL, headers = headers, params = params)
   # Check if the request was successful
-  if res == 200:
+  if res.status_code == 200:
     # print all json data in the response
     data = res.json()
     print(data)
