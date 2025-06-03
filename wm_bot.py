@@ -29,20 +29,21 @@ def get_wm_product_data():
 
     print("product_availability: ", product_availability)
     print("product_price: ", product_price)
-    # Prints all data after converting python object to json string
-    # print(json.dumps(full_json_data, indent=4))
+    
   
-    current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     # saves json data to file if json_tag is found
     with open("walmart_json_data.txt", "a", encoding = "utf-8") as file_to_write:
+      current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
       file_to_write.write("_______________________________ " + current_date_time + "_______________________________\n")
       # json.dump() writes the json data to file
       json.dump(full_json_data, file_to_write, indent = 4, ensure_ascii = False)
 
-      print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'walmart_json_data.json' from {WM_URL}.")
+      print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'walmart_json_data.txt' from {WM_URL}.")
   else:
     print(f"<script> tag with id=__NEXT_DATA__ not found on {WM_URL}.")
 
 # def check_wm_product_availability():
-#   if 
+#   if available, hit add to cart
+#   Go to checkout
+#   confirm item is in cart
 
