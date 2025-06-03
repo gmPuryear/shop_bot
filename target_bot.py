@@ -22,10 +22,25 @@ def get_target_product_data():
   # Check if the request was successful
   if res.status_code == 200:
     # print all json data in the response
-    data = res.json()
-    print(data)
-  # Parse the web page
-    parser = BeautifulSoup(res.text, 'lxml')
+    full_product_data = res.json()
+
+    product = full_product_data["data"]["product"]
+    title = product["item"]["product_description"]["title"]
+    price = product["price"]["formatted_current_price"]
+    eligibility = product["item"]["eligibility_rules"]
+    print(eligibility)
+    print(f"{title} – {price} - Availability/eligibility goes here")
+
+    with open("target_json_data.txt", "a", encoding = "utf-8") as file_to_write:
+      current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+      file_to_write.write("\n_______________________________ " + current_date_time + "_______________________________\n")
+      # json.dump() writes the json data to file
+      json.dump(full_product_data, file_to_write, indent = 4, ensure_ascii = False)
+
+      print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'target_json_data.txt' from {TARGET_URL}.")
+
+  else:
+    print(f"Error: {res.status_code} - not able to retrieve data from {TARGET_URL}")
   
     # parses the json string into readable format
     # full_json_data =  json.loads(res.string)
@@ -41,13 +56,7 @@ def get_target_product_data():
     
   
     # saves json data to file if json_tag is found
-  #   with open("target_json_data.txt", "a", encoding = "utf-8") as file_to_write:
-  #     current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-  #     file_to_write.write("_______________________________ " + current_date_time + "_______________________________\n")
-  #     # json.dump() writes the json data to file
-  #     json.dump(full_json_data, file_to_write, indent = 4, ensure_ascii = False)
-
-  #     print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'target_json_data.txt' from {TARGET_URL}.")
+  
   # else:
   #   print(f"<script> tag with id=__NEXT_DATA__ not found on {TARGET_URL}.")
 
