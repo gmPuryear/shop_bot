@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import datetime as dt
 import json
+import undetected_chromedriver as uc
 
 WM_URL = 'https://www.walmart.com/ip/24-PANINI-NFL-DONRUSS-OPTIC-VALUE-BOX/13580664574?classType=REGULAR&athbdg=L1600&from=/search'
 
