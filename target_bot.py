@@ -5,10 +5,15 @@ from bs4 import BeautifulSoup
 import undetected_chromedriver as uc
 import time
 
-TARGET_BROWSER_URL = 'https://www.target.com/p/optic-4k-uhd-hdr-smart-tv-55in/-/A-93319179'
-# URL to retrieve product info with get request
-TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=93319179&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-93319179'
+# ACTUAL URL for scraping Target product data
+# TARGET_BROWSER_URL = 'https://www.target.com/p/optic-4k-uhd-hdr-smart-tv-55in/-/A-93319179'
+# ACTUAL URL to retrieve product info with standard get requests
+# TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=93319179&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-93319179'
 
+# test target link for scraping
+TARGET_BROWSER_URL = 'https://www.target.com/p/2024-panini-nfl-totally-certified-football-trading-card-blaster-box/-/A-94467903#lnk=sametab'
+TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=94467903&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-94467903'
+TARGET_INSTOCK_STATUS_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/product_fulfillment_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&is_bot=false&tcin=94467903&store_id=1922&zip=76050&state=TX&latitude=32.340&longitude=-97.190&scheduled_delivery_store_id=1922&paid_membership=false&base_membership=false&card_membership=false&required_store_id=1922&visitor_id=0196B52D689B0201A17612E28C03710C&channel=WEB&page=%2Fp%2FA-94467903'
 params = {
     "key": "eb2551e4aa6e597b8c8e6fc4f2e1c7aa",  # Target's public API key for the PDP client
     "tcin": "93319179",                       # The TCIN for the Optic box
@@ -33,7 +38,6 @@ def get_target_product_data():
     price = product["price"]["formatted_current_price"]
     eligibility = product["item"]["eligibility_rules"]
     purchase_limit = product["item"]["fulfillment"]["purchase_limit"]
-    # print(f"AAHHHH {purchase_limit}")
     print(f"{title} – {price} - Purchase limit: {purchase_limit} - Availability/eligibility goes here\n")
 
     check_in_stock()
@@ -49,27 +53,45 @@ def get_target_product_data():
   else:
     print(f"Error: {res.status_code} - not able to retrieve data from {TARGET_GET_URL}")
 
+
 def check_in_stock():
-  options = uc.ChromeOptions()
-  options.headless = True  # Optional: run headless
-  chrome_driver = uc.Chrome(options=options)
-
-# Step 2: Go to Target product page
-  chrome_driver.get(TARGET_BROWSER_URL)
-
-  # Step 3: Wait for content to load
-  time.sleep(3)
-
-  # Step 4: Get the page source and parse it
-  html = chrome_driver.page_source
-  soup = BeautifulSoup(html, "html.parser")
-
-  # Step 5: Check for 'Out of stock'
-  out_of_stock_div = soup.find("div", {"data-test": "NonbuyableSection"})
-  if out_of_stock_div:
-      print("❌ Out of stock")
+  in_stock_res = requests.get(TARGET_INSTOCK_STATUS_URL, headers=headers)
+  if in_stock_res.status_code == 200:
+    in_stock_data = in_stock_res.json()
+    # Check if the product is available
+    if in_stock_data["data"]["product"]["fulfillment"]["sold_out"] == False:
+      print("✅ Product is in stock!")
+    else:
+      print("❌ Product is out of stock.")
   else:
-      print("✅ In stock or buyable")
+    print(f"Error: {in_stock_res.status_code} - not able to retrieve stock status from {TARGET_INSTOCK_STATUS_URL}")
+
+
+# ****This checks for availability using web scraping*****
+# def check_in_stock():
+#   options = uc.ChromeOptions()
+#   options.headless = True  # Optional: run headless
+#   chrome_driver = uc.Chrome(options=options)
+
+# # Step 2: Go to Target product page
+#   chrome_driver.get(TARGET_BROWSER_URL)
+
+#   # Step 3: Wait for content to load
+#   time.sleep(3)
+
+#   # Step 4: Get the page source and parse it
+#   html = chrome_driver.page_source
+#   soup = BeautifulSoup(html, "html.parser")
+
+#   # Step 5: Check for 'Out of stock'
+#   out_of_stock_div = soup.find("div", {"data-test": "NonbuyableSection"})
+#   if out_of_stock_div:
+#       print("❌ Out of stock")
+#   else:
+#       print("✅ In stock or buyable")
+
+
+
   
     # parses the json string into readable format
     # full_json_data =  json.loads(res.string)

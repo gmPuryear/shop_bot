@@ -4755,3 +4755,1743 @@ _______________________________ 2025-06-04 08:46:02_____________________________
         ]
     }
 }
+_______________________________ 2025-06-04 11:48:44_______________________________
+{
+    "data": {
+        "product": {
+            "__typename": "Product",
+            "tcin": "93319179",
+            "category": {
+                "parent_category_id": "5xt77",
+                "name": "Collectibles, Toys & Games",
+                "breadcrumbs": [
+                    {
+                        "canonical_url": "/",
+                        "category_id": "root",
+                        "name": "target"
+                    },
+                    {
+                        "canonical_url": "/c/sports-outdoors/-/N-5xt85",
+                        "category_id": "5xt85",
+                        "name": "Sports & Outdoors"
+                    },
+                    {
+                        "canonical_url": "/c/fan-shop-sports-outdoors/-/N-5xt77",
+                        "category_id": "5xt77",
+                        "name": "Sports Fan Shop"
+                    },
+                    {
+                        "canonical_url": "/c/collectibles-toys-games/-/N-5xt6z",
+                        "category_id": "5xt6z",
+                        "name": "Collectibles, Toys & Games"
+                    }
+                ]
+            },
+            "sales_classification_nodes": {
+                "node_ids": [
+                    "5xt6z",
+                    "4slqy",
+                    "54uxw",
+                    "27p31",
+                    "qpgcq",
+                    "5cdua",
+                    "5ol",
+                    "qk2n3",
+                    "iinmv"
+                ]
+            },
+            "ratings_and_reviews": {
+                "has_verified": true,
+                "statistics": {
+                    "not_recommended_count": 66,
+                    "question_count": 0,
+                    "rating": {
+                        "average": 2.58,
+                        "count": 387,
+                        "distribution": {
+                            "rating1": 216,
+                            "rating2": 13,
+                            "rating3": 12,
+                            "rating4": 12,
+                            "rating5": 134
+                        }
+                    },
+                    "recommended_count": 39,
+                    "recommended_percentage": 37,
+                    "review_count": 111
+                },
+                "most_recent": [
+                    {
+                        "id": "1f10a1e8-bbbb-496e-963b-e43e55ac39f7",
+                        "text": "Good product. One of the best of the year.",
+                        "author": {
+                            "nickname": "Evan",
+                            "external_id": "20145354127"
+                        },
+                        "title": "Buy optic this year",
+                        "rating": {
+                            "value": 4.0,
+                            "submitted_at": "2025-05-26T19:13:15.963Z"
+                        }
+                    },
+                    {
+                        "id": "02a6192d-e55b-40fa-bf02-629858d46320",
+                        "text": "Bought 3 boxes and got a case hit, daniels base rc and bo nix siver, duel downtown so these were awsome i just wish i could get more but its almost imposdible anymore to get them withe all the resellers out there. Loved this product.",
+                        "author": {
+                            "nickname": "BH",
+                            "external_id": "10105941019"
+                        },
+                        "title": "Optic football",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-18T01:58:41.446Z"
+                        }
+                    },
+                    {
+                        "id": "1796306f-5cb2-4a05-9ac3-ff4696e252f9",
+                        "text": "Can't find ANYWHERE!!!!",
+                        "author": {
+                            "nickname": "Zbone3333",
+                            "external_id": "20058467336"
+                        },
+                        "title": "Where are they?",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-17T09:31:04.141Z"
+                        }
+                    },
+                    {
+                        "id": "7ccffb0d-77c3-4b91-ae2a-09d5e27121b5",
+                        "text": "I spent $35 and got all base cards except about 5 inserts that weren’t worth a dollar combined. These are absolute junk. Don’t buy",
+                        "author": {
+                            "nickname": "PSA Buyer",
+                            "external_id": "3184318681"
+                        },
+                        "title": "Absolute junk",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-16T21:01:13.095Z"
+                        }
+                    },
+                    {
+                        "id": "7a32fed4-372b-423f-bf1f-48f9c7f39fe2",
+                        "text": "Thanks for the great cards just wish you guys fought the bots better",
+                        "author": {
+                            "nickname": "4444Tariff",
+                            "external_id": "20071664645"
+                        },
+                        "title": "Optic",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-15T12:49:29.499Z"
+                        }
+                    },
+                    {
+                        "id": "0a79e02b-2b89-4178-bc91-380839ae4390",
+                        "text": "Optic is one of the best.",
+                        "author": {
+                            "nickname": "Livinlifesportscards",
+                            "external_id": "10104140575"
+                        },
+                        "title": "Downtown Boston",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T13:56:29.653Z"
+                        }
+                    },
+                    {
+                        "id": "46e2f1de-a55a-42b4-ab0d-ea21155a03bf",
+                        "text": "Great product when u can get it",
+                        "author": {
+                            "nickname": "Scalp 69",
+                            "external_id": "8002844540"
+                        },
+                        "title": "Be quick",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T12:35:20.816Z"
+                        }
+                    },
+                    {
+                        "id": "dac14c88-0692-4497-b896-00c7235defe0",
+                        "text": "Cards are poorly made",
+                        "author": {
+                            "nickname": "Rook42903",
+                            "external_id": "10043729651"
+                        },
+                        "title": "Not worth the price",
+                        "rating": {
+                            "value": 2.0,
+                            "submitted_at": "2025-05-13T18:30:04.574Z"
+                        }
+                    }
+                ],
+                "photos": [
+                    "https://target.scene7.com/is/image/Target/GUEST_b6d0bea1-73e9-4f39-8c63-9028c96fd0d6",
+                    "https://target.scene7.com/is/image/Target/GUEST_4c2d2821-9798-4b35-be4f-b12d0285842a",
+                    "https://target.scene7.com/is/image/Target/GUEST_8a7a1b30-6edf-414f-b9a8-539c67027340",
+                    "https://target.scene7.com/is/image/Target/GUEST_a30cd23d-6e5d-4a27-b302-19fc604f27ad",
+                    "https://target.scene7.com/is/image/Target/GUEST_ddfad529-0dc6-420a-8f0d-d8bdb54c8bf2",
+                    "https://target.scene7.com/is/image/Target/GUEST_b30fe973-e55b-4308-b82c-1c446c7bf149",
+                    "https://target.scene7.com/is/image/Target/GUEST_1a7f3584-a82b-4b22-8872-083b3cced8b9",
+                    "https://target.scene7.com/is/image/Target/GUEST_2fb7c66b-710f-4709-8cb2-f4ae1c7a1fba",
+                    "https://target.scene7.com/is/image/Target/GUEST_2cee493e-e502-438f-8f62-5dbe20e3c861",
+                    "https://target.scene7.com/is/image/Target/GUEST_9793bc41-d49c-4b30-a702-898919fdb6ef",
+                    "https://target.scene7.com/is/image/Target/GUEST_117ba86f-98a6-426e-adb9-c53f5220a404",
+                    "https://target.scene7.com/is/image/Target/GUEST_e9ae0e1d-12db-41db-8f48-24ac799eff1a"
+                ]
+            },
+            "experiments_viewed": {
+                "xv": [
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    },
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    }
+                ]
+            },
+            "financing_options": {
+                "channel": "DIGITAL",
+                "providers": [
+                    {
+                        "finance_footer": "Rates are between 10–36% APR. Subject to credit check and approval. Options depend on your purchase amount, and a down payment may be required. Estimated payment amount may exclude taxes and shipping. Payment options through Affirm are provided by these lending partners: <a class='affirm-loan-originator' href='https://www.affirm.com/lenders'>affirm.com/lenders</a>. Please note that you can’t use Affirm to pay for pre-ordered items. See <a class='affirm-loan-originator' href='https://www.affirm.com/faqs'>affirm.com/faqs</a> for details.",
+                        "finance_header": "Make easy monthly payments over 3, 6 or 12 months",
+                        "finance_message": "Pay over time on $50+ orders with Affirm. <a class='affirm-modal-trigger'>Learn more</a>",
+                        "finance_minimum_loan_amount": 50.0,
+                        "finance_provider": "Affirm",
+                        "finance_terms": [
+                            {
+                                "amount": 103.35,
+                                "apr": 19.99,
+                                "installment_amount": 34.45,
+                                "installment_count": 3,
+                                "interest_amount": 3.35,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "3 months",
+                                "installment_interval": "$34.45 every month"
+                            },
+                            {
+                                "amount": 105.93,
+                                "apr": 20.06,
+                                "installment_amount": 17.66,
+                                "installment_count": 6,
+                                "interest_amount": 5.93,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "6 months",
+                                "installment_interval": "$17.66 every month"
+                            },
+                            {
+                                "amount": 111.27,
+                                "apr": 20.18,
+                                "installment_amount": 9.27,
+                                "installment_count": 12,
+                                "interest_amount": 11.27,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "12 months",
+                                "installment_interval": "$9.27 every month"
+                            }
+                        ],
+                        "financing_terms_url": "www.affirm.com/lenders",
+                        "financing_cell_header": "Pay over time",
+                        "financing_cell_body": "With Affirm on orders over $50",
+                        "is_finance_eligible": true,
+                        "is_finance_message_eligible": true
+                    }
+                ]
+            },
+            "free_shipping": {
+                "enabled": false
+            },
+            "desirability_cues": [],
+            "item": {
+                "product_classification": {
+                    "item_type": {
+                        "name": "Collectible Trading Cards",
+                        "type": "39980041"
+                    },
+                    "product_type": 544,
+                    "product_type_name": "TOYS",
+                    "purchase_behavior": "Discretionary"
+                },
+                "compliance": {
+                    "is_proposition_65": false
+                },
+                "enrichment": {
+                    "buy_url": "https://www.target.com/p/2024-panini-nfl-donruss-optic-football-trading-card-blaster-box/-/A-93319179",
+                    "image_info": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image": {
+                            "image_name": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                            "url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                        },
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ],
+                        "alternate_images": [
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                                "image_name": "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96",
+                                "image_name": "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            }
+                        ],
+                        "swatch_image": {}
+                    },
+                    "images": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "primary_image": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "alternate_images": [
+                            "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "alternate_image_urls": [
+                            "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ]
+                    },
+                    "return_policies": [
+                        {
+                            "user_type": "best_guest",
+                            "day_count": 0
+                        },
+                        {
+                            "user_type": "regular_guest",
+                            "day_count": 0
+                        }
+                    ]
+                },
+                "environmental_segmentation": {
+                    "is_hazardous_material": false
+                },
+                "formatted_return_method": "This item cannot be returned;  please reference our return policy for more information.",
+                "fulfillment": {
+                    "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes.",
+                    "shipping_exclusion_codes": [
+                        "American Samoa (see also separate entry under AS)",
+                        "Guam (see also separate entry under GU)",
+                        "Northern Mariana Islands",
+                        "Puerto Rico (see also separate entry under PR)",
+                        "United States Minor Outlying Islands",
+                        "Virgin Islands, U.S.",
+                        "APO/FPO"
+                    ],
+                    "is_gift_wrap_eligible": true,
+                    "purchase_limit": 2
+                },
+                "package_dimensions": {
+                    "depth": 5.0,
+                    "dimension_unit_of_measure": "INCH",
+                    "weight": 0.25,
+                    "weight_unit_of_measure": "POUND",
+                    "height": 2.75,
+                    "width": 3.5
+                },
+                "product_description": {
+                    "bullet_descriptions": [
+                        "<B>Suggested Age:</B> 6 Years and Up",
+                        "<B>Includes:</B> Cards",
+                        "<B>Package type:</B> Box Set"
+                    ],
+                    "downstream_description": "Panini presents the 2024 NFL Optic Donruss Football Trading Card Blaster Box. Each box contains 6 packs with 4 cards per pack. Look for Blaster Exclusive Rated Rookies Pink Parallels! Look for Ultra-Rare Inserts including Downtown, Downtown Duos, Uptowns, Hash Marks and More! Look for Autographs and Memorabilia Cards from some of the NFL's Hottest Players! Content may vary.<br />",
+                    "soft_bullets": {
+                        "bullets": [
+                            "6 Packs Per Box",
+                            "4 Cards Per Pack",
+                            "Content May Vary",
+                            "Collect Them All"
+                        ],
+                        "title": "highlights"
+                    },
+                    "title": "2024 Panini NFL Donruss Optic Football Trading Card Blaster Box",
+                    "soft_bullet_description": "&bull;6 Packs Per Box<br>&bull;4 Cards Per Pack<br>&bull;Content May Vary<br>&bull;Collect Them All"
+                },
+                "relationship_type_code": "SA",
+                "return_policy_url": "https://help.target.com/help/subcategoryarticle?childcat=Return+policy&parentcat=Returns+%26+Exchanges&searchQuery=search+help",
+                "ribbons": [
+                    "New At Target"
+                ],
+                "cart_add_on_threshold": 35.0,
+                "dpci": "087-12-2439",
+                "eligibility_rules": {
+                    "hold": {
+                        "is_active": true
+                    },
+                    "scheduled_delivery": {
+                        "is_active": true
+                    },
+                    "ship_to_guest": {
+                        "is_active": true
+                    }
+                },
+                "handling": {
+                    "import_designation_description": "Made in the USA or Imported"
+                },
+                "merchandise_classification": {
+                    "class_id": 12,
+                    "department_id": 87,
+                    "department_name": "GAMES/DIECAST/ACTION FIGURES"
+                },
+                "primary_barcode": "746134169717",
+                "primary_brand": {
+                    "canonical_url": "/b/nfl/-/N-5xwj6",
+                    "linking_id": "5xwj6",
+                    "name": "NFL"
+                },
+                "return_method": "No Return"
+            },
+            "price": {
+                "current_retail": 34.99,
+                "display_was_now": false,
+                "formatted_current_price": "$34.99",
+                "formatted_current_price_type": "reg",
+                "reg_retail": 34.99,
+                "location_id": 3991,
+                "external_system_id": "93319179-3991-34.99-2025060200"
+            }
+        }
+    },
+    "extensions": {
+        "experiments_viewed": [
+            {
+                "service": "redsky",
+                "tcin": "93319179",
+                "xv": [
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    },
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    }
+                ]
+            }
+        ]
+    }
+}
+_______________________________ 2025-06-05 08:13:40_______________________________
+{
+    "data": {
+        "product": {
+            "__typename": "Product",
+            "tcin": "93319179",
+            "category": {
+                "parent_category_id": "5xt77",
+                "name": "Collectibles, Toys & Games",
+                "breadcrumbs": [
+                    {
+                        "canonical_url": "/",
+                        "category_id": "root",
+                        "name": "target"
+                    },
+                    {
+                        "canonical_url": "/c/sports-outdoors/-/N-5xt85",
+                        "category_id": "5xt85",
+                        "name": "Sports & Outdoors"
+                    },
+                    {
+                        "canonical_url": "/c/fan-shop-sports-outdoors/-/N-5xt77",
+                        "category_id": "5xt77",
+                        "name": "Sports Fan Shop"
+                    },
+                    {
+                        "canonical_url": "/c/collectibles-toys-games/-/N-5xt6z",
+                        "category_id": "5xt6z",
+                        "name": "Collectibles, Toys & Games"
+                    }
+                ]
+            },
+            "sales_classification_nodes": {
+                "node_ids": [
+                    "5xt6z",
+                    "4slqy",
+                    "54uxw",
+                    "27p31",
+                    "qpgcq",
+                    "5cdua",
+                    "5ol",
+                    "qk2n3",
+                    "iinmv"
+                ]
+            },
+            "ratings_and_reviews": {
+                "has_verified": true,
+                "statistics": {
+                    "not_recommended_count": 66,
+                    "question_count": 0,
+                    "rating": {
+                        "average": 2.58,
+                        "count": 388,
+                        "distribution": {
+                            "rating1": 216,
+                            "rating2": 13,
+                            "rating3": 12,
+                            "rating4": 12,
+                            "rating5": 135
+                        }
+                    },
+                    "recommended_count": 39,
+                    "recommended_percentage": 37,
+                    "review_count": 111
+                },
+                "most_recent": [
+                    {
+                        "id": "1f10a1e8-bbbb-496e-963b-e43e55ac39f7",
+                        "text": "Good product. One of the best of the year.",
+                        "author": {
+                            "nickname": "Evan",
+                            "external_id": "20145354127"
+                        },
+                        "title": "Buy optic this year",
+                        "rating": {
+                            "value": 4.0,
+                            "submitted_at": "2025-05-26T19:13:15.963Z"
+                        }
+                    },
+                    {
+                        "id": "02a6192d-e55b-40fa-bf02-629858d46320",
+                        "text": "Bought 3 boxes and got a case hit, daniels base rc and bo nix siver, duel downtown so these were awsome i just wish i could get more but its almost imposdible anymore to get them withe all the resellers out there. Loved this product.",
+                        "author": {
+                            "nickname": "BH",
+                            "external_id": "10105941019"
+                        },
+                        "title": "Optic football",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-18T01:58:41.446Z"
+                        }
+                    },
+                    {
+                        "id": "1796306f-5cb2-4a05-9ac3-ff4696e252f9",
+                        "text": "Can't find ANYWHERE!!!!",
+                        "author": {
+                            "nickname": "Zbone3333",
+                            "external_id": "20058467336"
+                        },
+                        "title": "Where are they?",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-17T09:31:04.141Z"
+                        }
+                    },
+                    {
+                        "id": "7ccffb0d-77c3-4b91-ae2a-09d5e27121b5",
+                        "text": "I spent $35 and got all base cards except about 5 inserts that weren’t worth a dollar combined. These are absolute junk. Don’t buy",
+                        "author": {
+                            "nickname": "PSA Buyer",
+                            "external_id": "3184318681"
+                        },
+                        "title": "Absolute junk",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-16T21:01:13.095Z"
+                        }
+                    },
+                    {
+                        "id": "7a32fed4-372b-423f-bf1f-48f9c7f39fe2",
+                        "text": "Thanks for the great cards just wish you guys fought the bots better",
+                        "author": {
+                            "nickname": "4444Tariff",
+                            "external_id": "20071664645"
+                        },
+                        "title": "Optic",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-15T12:49:29.499Z"
+                        }
+                    },
+                    {
+                        "id": "0a79e02b-2b89-4178-bc91-380839ae4390",
+                        "text": "Optic is one of the best.",
+                        "author": {
+                            "nickname": "Livinlifesportscards",
+                            "external_id": "10104140575"
+                        },
+                        "title": "Downtown Boston",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T13:56:29.653Z"
+                        }
+                    },
+                    {
+                        "id": "46e2f1de-a55a-42b4-ab0d-ea21155a03bf",
+                        "text": "Great product when u can get it",
+                        "author": {
+                            "nickname": "Scalp 69",
+                            "external_id": "8002844540"
+                        },
+                        "title": "Be quick",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T12:35:20.816Z"
+                        }
+                    },
+                    {
+                        "id": "dac14c88-0692-4497-b896-00c7235defe0",
+                        "text": "Cards are poorly made",
+                        "author": {
+                            "nickname": "Rook42903",
+                            "external_id": "10043729651"
+                        },
+                        "title": "Not worth the price",
+                        "rating": {
+                            "value": 2.0,
+                            "submitted_at": "2025-05-13T18:30:04.574Z"
+                        }
+                    }
+                ],
+                "photos": [
+                    "https://target.scene7.com/is/image/Target/GUEST_b6d0bea1-73e9-4f39-8c63-9028c96fd0d6",
+                    "https://target.scene7.com/is/image/Target/GUEST_4c2d2821-9798-4b35-be4f-b12d0285842a",
+                    "https://target.scene7.com/is/image/Target/GUEST_8a7a1b30-6edf-414f-b9a8-539c67027340",
+                    "https://target.scene7.com/is/image/Target/GUEST_a30cd23d-6e5d-4a27-b302-19fc604f27ad",
+                    "https://target.scene7.com/is/image/Target/GUEST_ddfad529-0dc6-420a-8f0d-d8bdb54c8bf2",
+                    "https://target.scene7.com/is/image/Target/GUEST_b30fe973-e55b-4308-b82c-1c446c7bf149",
+                    "https://target.scene7.com/is/image/Target/GUEST_1a7f3584-a82b-4b22-8872-083b3cced8b9",
+                    "https://target.scene7.com/is/image/Target/GUEST_2fb7c66b-710f-4709-8cb2-f4ae1c7a1fba",
+                    "https://target.scene7.com/is/image/Target/GUEST_2cee493e-e502-438f-8f62-5dbe20e3c861",
+                    "https://target.scene7.com/is/image/Target/GUEST_9793bc41-d49c-4b30-a702-898919fdb6ef",
+                    "https://target.scene7.com/is/image/Target/GUEST_117ba86f-98a6-426e-adb9-c53f5220a404",
+                    "https://target.scene7.com/is/image/Target/GUEST_e9ae0e1d-12db-41db-8f48-24ac799eff1a"
+                ]
+            },
+            "experiments_viewed": {
+                "xv": [
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    },
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    }
+                ]
+            },
+            "financing_options": {
+                "channel": "DIGITAL",
+                "providers": [
+                    {
+                        "finance_footer": "Rates are between 10–36% APR. Subject to credit check and approval. Options depend on your purchase amount, and a down payment may be required. Estimated payment amount may exclude taxes and shipping. Payment options through Affirm are provided by these lending partners: <a class='affirm-loan-originator' href='https://www.affirm.com/lenders'>affirm.com/lenders</a>. Please note that you can’t use Affirm to pay for pre-ordered items. See <a class='affirm-loan-originator' href='https://www.affirm.com/faqs'>affirm.com/faqs</a> for details.",
+                        "finance_header": "Make easy monthly payments over 3, 6 or 12 months",
+                        "finance_message": "Pay over time on $50+ orders with Affirm. <a class='affirm-modal-trigger'>Learn more</a>",
+                        "finance_minimum_loan_amount": 50.0,
+                        "finance_provider": "Affirm",
+                        "finance_terms": [
+                            {
+                                "amount": 103.35,
+                                "apr": 19.99,
+                                "installment_amount": 34.45,
+                                "installment_count": 3,
+                                "interest_amount": 3.35,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "3 months",
+                                "installment_interval": "$34.45 every month"
+                            },
+                            {
+                                "amount": 105.93,
+                                "apr": 20.06,
+                                "installment_amount": 17.66,
+                                "installment_count": 6,
+                                "interest_amount": 5.93,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "6 months",
+                                "installment_interval": "$17.66 every month"
+                            },
+                            {
+                                "amount": 111.27,
+                                "apr": 20.18,
+                                "installment_amount": 9.27,
+                                "installment_count": 12,
+                                "interest_amount": 11.27,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "12 months",
+                                "installment_interval": "$9.27 every month"
+                            }
+                        ],
+                        "financing_terms_url": "www.affirm.com/lenders",
+                        "financing_cell_header": "Pay over time",
+                        "financing_cell_body": "With Affirm on orders over $50",
+                        "is_finance_eligible": true,
+                        "is_finance_message_eligible": true
+                    }
+                ]
+            },
+            "free_shipping": {
+                "enabled": false
+            },
+            "desirability_cues": [],
+            "item": {
+                "product_classification": {
+                    "item_type": {
+                        "name": "Collectible Trading Cards",
+                        "type": "39980041"
+                    },
+                    "product_type": 544,
+                    "product_type_name": "TOYS",
+                    "purchase_behavior": "Discretionary"
+                },
+                "compliance": {
+                    "is_proposition_65": false
+                },
+                "enrichment": {
+                    "buy_url": "https://www.target.com/p/2024-panini-nfl-donruss-optic-football-trading-card-blaster-box/-/A-93319179",
+                    "image_info": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image": {
+                            "image_name": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                            "url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                        },
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ],
+                        "alternate_images": [
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                                "image_name": "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96",
+                                "image_name": "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            }
+                        ],
+                        "swatch_image": {}
+                    },
+                    "images": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "primary_image": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "alternate_images": [
+                            "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "alternate_image_urls": [
+                            "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ]
+                    },
+                    "return_policies": [
+                        {
+                            "user_type": "best_guest",
+                            "day_count": 0
+                        },
+                        {
+                            "user_type": "regular_guest",
+                            "day_count": 0
+                        }
+                    ]
+                },
+                "environmental_segmentation": {
+                    "is_hazardous_material": false
+                },
+                "formatted_return_method": "This item cannot be returned;  please reference our return policy for more information.",
+                "fulfillment": {
+                    "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes.",
+                    "shipping_exclusion_codes": [
+                        "American Samoa (see also separate entry under AS)",
+                        "Guam (see also separate entry under GU)",
+                        "Northern Mariana Islands",
+                        "Puerto Rico (see also separate entry under PR)",
+                        "United States Minor Outlying Islands",
+                        "Virgin Islands, U.S.",
+                        "APO/FPO"
+                    ],
+                    "is_gift_wrap_eligible": true,
+                    "purchase_limit": 2
+                },
+                "package_dimensions": {
+                    "depth": 5.0,
+                    "dimension_unit_of_measure": "INCH",
+                    "weight": 0.25,
+                    "weight_unit_of_measure": "POUND",
+                    "height": 2.75,
+                    "width": 3.5
+                },
+                "product_description": {
+                    "bullet_descriptions": [
+                        "<B>Suggested Age:</B> 6 Years and Up",
+                        "<B>Includes:</B> Cards",
+                        "<B>Package type:</B> Box Set"
+                    ],
+                    "downstream_description": "Panini presents the 2024 NFL Optic Donruss Football Trading Card Blaster Box. Each box contains 6 packs with 4 cards per pack. Look for Blaster Exclusive Rated Rookies Pink Parallels! Look for Ultra-Rare Inserts including Downtown, Downtown Duos, Uptowns, Hash Marks and More! Look for Autographs and Memorabilia Cards from some of the NFL's Hottest Players! Content may vary.<br />",
+                    "soft_bullets": {
+                        "bullets": [
+                            "6 Packs Per Box",
+                            "4 Cards Per Pack",
+                            "Content May Vary",
+                            "Collect Them All"
+                        ],
+                        "title": "highlights"
+                    },
+                    "title": "2024 Panini NFL Donruss Optic Football Trading Card Blaster Box",
+                    "soft_bullet_description": "&bull;6 Packs Per Box<br>&bull;4 Cards Per Pack<br>&bull;Content May Vary<br>&bull;Collect Them All"
+                },
+                "relationship_type_code": "SA",
+                "return_policy_url": "https://help.target.com/help/subcategoryarticle?childcat=Return+policy&parentcat=Returns+%26+Exchanges&searchQuery=search+help",
+                "ribbons": [
+                    "New At Target"
+                ],
+                "cart_add_on_threshold": 35.0,
+                "dpci": "087-12-2439",
+                "eligibility_rules": {
+                    "hold": {
+                        "is_active": true
+                    },
+                    "scheduled_delivery": {
+                        "is_active": true
+                    },
+                    "ship_to_guest": {
+                        "is_active": true
+                    }
+                },
+                "handling": {
+                    "import_designation_description": "Made in the USA or Imported"
+                },
+                "merchandise_classification": {
+                    "class_id": 12,
+                    "department_id": 87,
+                    "department_name": "GAMES/DIECAST/ACTION FIGURES"
+                },
+                "primary_barcode": "746134169717",
+                "primary_brand": {
+                    "canonical_url": "/b/nfl/-/N-5xwj6",
+                    "linking_id": "5xwj6",
+                    "name": "NFL"
+                },
+                "return_method": "No Return"
+            },
+            "price": {
+                "current_retail": 34.99,
+                "display_was_now": false,
+                "formatted_current_price": "$34.99",
+                "formatted_current_price_type": "reg",
+                "reg_retail": 34.99,
+                "location_id": 3991,
+                "external_system_id": "93319179-3991-34.99-2025060200"
+            }
+        }
+    },
+    "extensions": {
+        "experiments_viewed": [
+            {
+                "service": "redsky",
+                "tcin": "93319179",
+                "xv": [
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    },
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    }
+                ]
+            }
+        ]
+    }
+}
+_______________________________ 2025-06-05 08:23:14_______________________________
+{
+    "data": {
+        "product": {
+            "__typename": "Product",
+            "tcin": "93319179",
+            "category": {
+                "parent_category_id": "5xt77",
+                "name": "Collectibles, Toys & Games",
+                "breadcrumbs": [
+                    {
+                        "canonical_url": "/",
+                        "category_id": "root",
+                        "name": "target"
+                    },
+                    {
+                        "canonical_url": "/c/sports-outdoors/-/N-5xt85",
+                        "category_id": "5xt85",
+                        "name": "Sports & Outdoors"
+                    },
+                    {
+                        "canonical_url": "/c/fan-shop-sports-outdoors/-/N-5xt77",
+                        "category_id": "5xt77",
+                        "name": "Sports Fan Shop"
+                    },
+                    {
+                        "canonical_url": "/c/collectibles-toys-games/-/N-5xt6z",
+                        "category_id": "5xt6z",
+                        "name": "Collectibles, Toys & Games"
+                    }
+                ]
+            },
+            "sales_classification_nodes": {
+                "node_ids": [
+                    "5xt6z",
+                    "4slqy",
+                    "54uxw",
+                    "27p31",
+                    "qpgcq",
+                    "5cdua",
+                    "5ol",
+                    "qk2n3",
+                    "iinmv"
+                ]
+            },
+            "ratings_and_reviews": {
+                "has_verified": true,
+                "statistics": {
+                    "not_recommended_count": 66,
+                    "question_count": 0,
+                    "rating": {
+                        "average": 2.58,
+                        "count": 388,
+                        "distribution": {
+                            "rating1": 216,
+                            "rating2": 13,
+                            "rating3": 12,
+                            "rating4": 12,
+                            "rating5": 135
+                        }
+                    },
+                    "recommended_count": 39,
+                    "recommended_percentage": 37,
+                    "review_count": 111
+                },
+                "most_recent": [
+                    {
+                        "id": "1f10a1e8-bbbb-496e-963b-e43e55ac39f7",
+                        "text": "Good product. One of the best of the year.",
+                        "author": {
+                            "nickname": "Evan",
+                            "external_id": "20145354127"
+                        },
+                        "title": "Buy optic this year",
+                        "rating": {
+                            "value": 4.0,
+                            "submitted_at": "2025-05-26T19:13:15.963Z"
+                        }
+                    },
+                    {
+                        "id": "02a6192d-e55b-40fa-bf02-629858d46320",
+                        "text": "Bought 3 boxes and got a case hit, daniels base rc and bo nix siver, duel downtown so these were awsome i just wish i could get more but its almost imposdible anymore to get them withe all the resellers out there. Loved this product.",
+                        "author": {
+                            "nickname": "BH",
+                            "external_id": "10105941019"
+                        },
+                        "title": "Optic football",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-18T01:58:41.446Z"
+                        }
+                    },
+                    {
+                        "id": "1796306f-5cb2-4a05-9ac3-ff4696e252f9",
+                        "text": "Can't find ANYWHERE!!!!",
+                        "author": {
+                            "nickname": "Zbone3333",
+                            "external_id": "20058467336"
+                        },
+                        "title": "Where are they?",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-17T09:31:04.141Z"
+                        }
+                    },
+                    {
+                        "id": "7ccffb0d-77c3-4b91-ae2a-09d5e27121b5",
+                        "text": "I spent $35 and got all base cards except about 5 inserts that weren’t worth a dollar combined. These are absolute junk. Don’t buy",
+                        "author": {
+                            "nickname": "PSA Buyer",
+                            "external_id": "3184318681"
+                        },
+                        "title": "Absolute junk",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-16T21:01:13.095Z"
+                        }
+                    },
+                    {
+                        "id": "7a32fed4-372b-423f-bf1f-48f9c7f39fe2",
+                        "text": "Thanks for the great cards just wish you guys fought the bots better",
+                        "author": {
+                            "nickname": "4444Tariff",
+                            "external_id": "20071664645"
+                        },
+                        "title": "Optic",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-15T12:49:29.499Z"
+                        }
+                    },
+                    {
+                        "id": "0a79e02b-2b89-4178-bc91-380839ae4390",
+                        "text": "Optic is one of the best.",
+                        "author": {
+                            "nickname": "Livinlifesportscards",
+                            "external_id": "10104140575"
+                        },
+                        "title": "Downtown Boston",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T13:56:29.653Z"
+                        }
+                    },
+                    {
+                        "id": "46e2f1de-a55a-42b4-ab0d-ea21155a03bf",
+                        "text": "Great product when u can get it",
+                        "author": {
+                            "nickname": "Scalp 69",
+                            "external_id": "8002844540"
+                        },
+                        "title": "Be quick",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T12:35:20.816Z"
+                        }
+                    },
+                    {
+                        "id": "dac14c88-0692-4497-b896-00c7235defe0",
+                        "text": "Cards are poorly made",
+                        "author": {
+                            "nickname": "Rook42903",
+                            "external_id": "10043729651"
+                        },
+                        "title": "Not worth the price",
+                        "rating": {
+                            "value": 2.0,
+                            "submitted_at": "2025-05-13T18:30:04.574Z"
+                        }
+                    }
+                ],
+                "photos": [
+                    "https://target.scene7.com/is/image/Target/GUEST_b6d0bea1-73e9-4f39-8c63-9028c96fd0d6",
+                    "https://target.scene7.com/is/image/Target/GUEST_4c2d2821-9798-4b35-be4f-b12d0285842a",
+                    "https://target.scene7.com/is/image/Target/GUEST_8a7a1b30-6edf-414f-b9a8-539c67027340",
+                    "https://target.scene7.com/is/image/Target/GUEST_a30cd23d-6e5d-4a27-b302-19fc604f27ad",
+                    "https://target.scene7.com/is/image/Target/GUEST_ddfad529-0dc6-420a-8f0d-d8bdb54c8bf2",
+                    "https://target.scene7.com/is/image/Target/GUEST_b30fe973-e55b-4308-b82c-1c446c7bf149",
+                    "https://target.scene7.com/is/image/Target/GUEST_1a7f3584-a82b-4b22-8872-083b3cced8b9",
+                    "https://target.scene7.com/is/image/Target/GUEST_2fb7c66b-710f-4709-8cb2-f4ae1c7a1fba",
+                    "https://target.scene7.com/is/image/Target/GUEST_2cee493e-e502-438f-8f62-5dbe20e3c861",
+                    "https://target.scene7.com/is/image/Target/GUEST_9793bc41-d49c-4b30-a702-898919fdb6ef",
+                    "https://target.scene7.com/is/image/Target/GUEST_117ba86f-98a6-426e-adb9-c53f5220a404",
+                    "https://target.scene7.com/is/image/Target/GUEST_e9ae0e1d-12db-41db-8f48-24ac799eff1a"
+                ]
+            },
+            "experiments_viewed": {
+                "xv": [
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    },
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    }
+                ]
+            },
+            "financing_options": {
+                "channel": "DIGITAL",
+                "providers": [
+                    {
+                        "finance_footer": "Rates are between 10–36% APR. Subject to credit check and approval. Options depend on your purchase amount, and a down payment may be required. Estimated payment amount may exclude taxes and shipping. Payment options through Affirm are provided by these lending partners: <a class='affirm-loan-originator' href='https://www.affirm.com/lenders'>affirm.com/lenders</a>. Please note that you can’t use Affirm to pay for pre-ordered items. See <a class='affirm-loan-originator' href='https://www.affirm.com/faqs'>affirm.com/faqs</a> for details.",
+                        "finance_header": "Make easy monthly payments over 3, 6 or 12 months",
+                        "finance_message": "Pay over time on $50+ orders with Affirm. <a class='affirm-modal-trigger'>Learn more</a>",
+                        "finance_minimum_loan_amount": 50.0,
+                        "finance_provider": "Affirm",
+                        "finance_terms": [
+                            {
+                                "amount": 103.35,
+                                "apr": 19.99,
+                                "installment_amount": 34.45,
+                                "installment_count": 3,
+                                "interest_amount": 3.35,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "3 months",
+                                "installment_interval": "$34.45 every month"
+                            },
+                            {
+                                "amount": 105.93,
+                                "apr": 20.06,
+                                "installment_amount": 17.66,
+                                "installment_count": 6,
+                                "interest_amount": 5.93,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "6 months",
+                                "installment_interval": "$17.66 every month"
+                            },
+                            {
+                                "amount": 111.27,
+                                "apr": 20.18,
+                                "installment_amount": 9.27,
+                                "installment_count": 12,
+                                "interest_amount": 11.27,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "12 months",
+                                "installment_interval": "$9.27 every month"
+                            }
+                        ],
+                        "financing_terms_url": "www.affirm.com/lenders",
+                        "financing_cell_header": "Pay over time",
+                        "financing_cell_body": "With Affirm on orders over $50",
+                        "is_finance_eligible": true,
+                        "is_finance_message_eligible": true
+                    }
+                ]
+            },
+            "free_shipping": {
+                "enabled": false
+            },
+            "desirability_cues": [],
+            "item": {
+                "product_classification": {
+                    "item_type": {
+                        "name": "Collectible Trading Cards",
+                        "type": "39980041"
+                    },
+                    "product_type": 544,
+                    "product_type_name": "TOYS",
+                    "purchase_behavior": "Discretionary"
+                },
+                "compliance": {
+                    "is_proposition_65": false
+                },
+                "enrichment": {
+                    "buy_url": "https://www.target.com/p/2024-panini-nfl-donruss-optic-football-trading-card-blaster-box/-/A-93319179",
+                    "image_info": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image": {
+                            "image_name": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                            "url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                        },
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ],
+                        "alternate_images": [
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                                "image_name": "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96",
+                                "image_name": "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            }
+                        ],
+                        "swatch_image": {}
+                    },
+                    "images": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "primary_image": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "alternate_images": [
+                            "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "alternate_image_urls": [
+                            "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ]
+                    },
+                    "return_policies": [
+                        {
+                            "user_type": "best_guest",
+                            "day_count": 0
+                        },
+                        {
+                            "user_type": "regular_guest",
+                            "day_count": 0
+                        }
+                    ]
+                },
+                "environmental_segmentation": {
+                    "is_hazardous_material": false
+                },
+                "formatted_return_method": "This item cannot be returned;  please reference our return policy for more information.",
+                "fulfillment": {
+                    "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes.",
+                    "shipping_exclusion_codes": [
+                        "American Samoa (see also separate entry under AS)",
+                        "Guam (see also separate entry under GU)",
+                        "Northern Mariana Islands",
+                        "Puerto Rico (see also separate entry under PR)",
+                        "United States Minor Outlying Islands",
+                        "Virgin Islands, U.S.",
+                        "APO/FPO"
+                    ],
+                    "is_gift_wrap_eligible": true,
+                    "purchase_limit": 2
+                },
+                "package_dimensions": {
+                    "depth": 5.0,
+                    "dimension_unit_of_measure": "INCH",
+                    "weight": 0.25,
+                    "weight_unit_of_measure": "POUND",
+                    "height": 2.75,
+                    "width": 3.5
+                },
+                "product_description": {
+                    "bullet_descriptions": [
+                        "<B>Suggested Age:</B> 6 Years and Up",
+                        "<B>Includes:</B> Cards",
+                        "<B>Package type:</B> Box Set"
+                    ],
+                    "downstream_description": "Panini presents the 2024 NFL Optic Donruss Football Trading Card Blaster Box. Each box contains 6 packs with 4 cards per pack. Look for Blaster Exclusive Rated Rookies Pink Parallels! Look for Ultra-Rare Inserts including Downtown, Downtown Duos, Uptowns, Hash Marks and More! Look for Autographs and Memorabilia Cards from some of the NFL's Hottest Players! Content may vary.<br />",
+                    "soft_bullets": {
+                        "bullets": [
+                            "6 Packs Per Box",
+                            "4 Cards Per Pack",
+                            "Content May Vary",
+                            "Collect Them All"
+                        ],
+                        "title": "highlights"
+                    },
+                    "title": "2024 Panini NFL Donruss Optic Football Trading Card Blaster Box",
+                    "soft_bullet_description": "&bull;6 Packs Per Box<br>&bull;4 Cards Per Pack<br>&bull;Content May Vary<br>&bull;Collect Them All"
+                },
+                "relationship_type_code": "SA",
+                "return_policy_url": "https://help.target.com/help/subcategoryarticle?childcat=Return+policy&parentcat=Returns+%26+Exchanges&searchQuery=search+help",
+                "ribbons": [
+                    "New At Target"
+                ],
+                "cart_add_on_threshold": 35.0,
+                "dpci": "087-12-2439",
+                "eligibility_rules": {
+                    "hold": {
+                        "is_active": true
+                    },
+                    "scheduled_delivery": {
+                        "is_active": true
+                    },
+                    "ship_to_guest": {
+                        "is_active": true
+                    }
+                },
+                "handling": {
+                    "import_designation_description": "Made in the USA or Imported"
+                },
+                "merchandise_classification": {
+                    "class_id": 12,
+                    "department_id": 87,
+                    "department_name": "GAMES/DIECAST/ACTION FIGURES"
+                },
+                "primary_barcode": "746134169717",
+                "primary_brand": {
+                    "canonical_url": "/b/nfl/-/N-5xwj6",
+                    "linking_id": "5xwj6",
+                    "name": "NFL"
+                },
+                "return_method": "No Return"
+            },
+            "price": {
+                "current_retail": 34.99,
+                "display_was_now": false,
+                "formatted_current_price": "$34.99",
+                "formatted_current_price_type": "reg",
+                "reg_retail": 34.99,
+                "location_id": 3991,
+                "external_system_id": "93319179-3991-34.99-2025060200"
+            }
+        }
+    },
+    "extensions": {
+        "experiments_viewed": [
+            {
+                "service": "redsky",
+                "tcin": "93319179",
+                "xv": [
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    },
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    }
+                ]
+            }
+        ]
+    }
+}
+_______________________________ 2025-06-05 08:24:14_______________________________
+{
+    "data": {
+        "product": {
+            "__typename": "Product",
+            "tcin": "93319179",
+            "category": {
+                "parent_category_id": "5xt77",
+                "name": "Collectibles, Toys & Games",
+                "breadcrumbs": [
+                    {
+                        "canonical_url": "/",
+                        "category_id": "root",
+                        "name": "target"
+                    },
+                    {
+                        "canonical_url": "/c/sports-outdoors/-/N-5xt85",
+                        "category_id": "5xt85",
+                        "name": "Sports & Outdoors"
+                    },
+                    {
+                        "canonical_url": "/c/fan-shop-sports-outdoors/-/N-5xt77",
+                        "category_id": "5xt77",
+                        "name": "Sports Fan Shop"
+                    },
+                    {
+                        "canonical_url": "/c/collectibles-toys-games/-/N-5xt6z",
+                        "category_id": "5xt6z",
+                        "name": "Collectibles, Toys & Games"
+                    }
+                ]
+            },
+            "sales_classification_nodes": {
+                "node_ids": [
+                    "5xt6z",
+                    "4slqy",
+                    "54uxw",
+                    "27p31",
+                    "qpgcq",
+                    "5cdua",
+                    "5ol",
+                    "qk2n3",
+                    "iinmv"
+                ]
+            },
+            "ratings_and_reviews": {
+                "has_verified": true,
+                "statistics": {
+                    "not_recommended_count": 66,
+                    "question_count": 0,
+                    "rating": {
+                        "average": 2.58,
+                        "count": 388,
+                        "distribution": {
+                            "rating1": 216,
+                            "rating2": 13,
+                            "rating3": 12,
+                            "rating4": 12,
+                            "rating5": 135
+                        }
+                    },
+                    "recommended_count": 39,
+                    "recommended_percentage": 37,
+                    "review_count": 111
+                },
+                "most_recent": [
+                    {
+                        "id": "1f10a1e8-bbbb-496e-963b-e43e55ac39f7",
+                        "text": "Good product. One of the best of the year.",
+                        "author": {
+                            "nickname": "Evan",
+                            "external_id": "20145354127"
+                        },
+                        "title": "Buy optic this year",
+                        "rating": {
+                            "value": 4.0,
+                            "submitted_at": "2025-05-26T19:13:15.963Z"
+                        }
+                    },
+                    {
+                        "id": "02a6192d-e55b-40fa-bf02-629858d46320",
+                        "text": "Bought 3 boxes and got a case hit, daniels base rc and bo nix siver, duel downtown so these were awsome i just wish i could get more but its almost imposdible anymore to get them withe all the resellers out there. Loved this product.",
+                        "author": {
+                            "nickname": "BH",
+                            "external_id": "10105941019"
+                        },
+                        "title": "Optic football",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-18T01:58:41.446Z"
+                        }
+                    },
+                    {
+                        "id": "1796306f-5cb2-4a05-9ac3-ff4696e252f9",
+                        "text": "Can't find ANYWHERE!!!!",
+                        "author": {
+                            "nickname": "Zbone3333",
+                            "external_id": "20058467336"
+                        },
+                        "title": "Where are they?",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-17T09:31:04.141Z"
+                        }
+                    },
+                    {
+                        "id": "7ccffb0d-77c3-4b91-ae2a-09d5e27121b5",
+                        "text": "I spent $35 and got all base cards except about 5 inserts that weren’t worth a dollar combined. These are absolute junk. Don’t buy",
+                        "author": {
+                            "nickname": "PSA Buyer",
+                            "external_id": "3184318681"
+                        },
+                        "title": "Absolute junk",
+                        "rating": {
+                            "value": 1.0,
+                            "submitted_at": "2025-05-16T21:01:13.095Z"
+                        }
+                    },
+                    {
+                        "id": "7a32fed4-372b-423f-bf1f-48f9c7f39fe2",
+                        "text": "Thanks for the great cards just wish you guys fought the bots better",
+                        "author": {
+                            "nickname": "4444Tariff",
+                            "external_id": "20071664645"
+                        },
+                        "title": "Optic",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-15T12:49:29.499Z"
+                        }
+                    },
+                    {
+                        "id": "0a79e02b-2b89-4178-bc91-380839ae4390",
+                        "text": "Optic is one of the best.",
+                        "author": {
+                            "nickname": "Livinlifesportscards",
+                            "external_id": "10104140575"
+                        },
+                        "title": "Downtown Boston",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T13:56:29.653Z"
+                        }
+                    },
+                    {
+                        "id": "46e2f1de-a55a-42b4-ab0d-ea21155a03bf",
+                        "text": "Great product when u can get it",
+                        "author": {
+                            "nickname": "Scalp 69",
+                            "external_id": "8002844540"
+                        },
+                        "title": "Be quick",
+                        "rating": {
+                            "value": 5.0,
+                            "submitted_at": "2025-05-14T12:35:20.816Z"
+                        }
+                    },
+                    {
+                        "id": "dac14c88-0692-4497-b896-00c7235defe0",
+                        "text": "Cards are poorly made",
+                        "author": {
+                            "nickname": "Rook42903",
+                            "external_id": "10043729651"
+                        },
+                        "title": "Not worth the price",
+                        "rating": {
+                            "value": 2.0,
+                            "submitted_at": "2025-05-13T18:30:04.574Z"
+                        }
+                    }
+                ],
+                "photos": [
+                    "https://target.scene7.com/is/image/Target/GUEST_b6d0bea1-73e9-4f39-8c63-9028c96fd0d6",
+                    "https://target.scene7.com/is/image/Target/GUEST_4c2d2821-9798-4b35-be4f-b12d0285842a",
+                    "https://target.scene7.com/is/image/Target/GUEST_8a7a1b30-6edf-414f-b9a8-539c67027340",
+                    "https://target.scene7.com/is/image/Target/GUEST_a30cd23d-6e5d-4a27-b302-19fc604f27ad",
+                    "https://target.scene7.com/is/image/Target/GUEST_ddfad529-0dc6-420a-8f0d-d8bdb54c8bf2",
+                    "https://target.scene7.com/is/image/Target/GUEST_b30fe973-e55b-4308-b82c-1c446c7bf149",
+                    "https://target.scene7.com/is/image/Target/GUEST_1a7f3584-a82b-4b22-8872-083b3cced8b9",
+                    "https://target.scene7.com/is/image/Target/GUEST_2fb7c66b-710f-4709-8cb2-f4ae1c7a1fba",
+                    "https://target.scene7.com/is/image/Target/GUEST_2cee493e-e502-438f-8f62-5dbe20e3c861",
+                    "https://target.scene7.com/is/image/Target/GUEST_9793bc41-d49c-4b30-a702-898919fdb6ef",
+                    "https://target.scene7.com/is/image/Target/GUEST_117ba86f-98a6-426e-adb9-c53f5220a404",
+                    "https://target.scene7.com/is/image/Target/GUEST_e9ae0e1d-12db-41db-8f48-24ac799eff1a"
+                ]
+            },
+            "experiments_viewed": {
+                "xv": [
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    },
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    }
+                ]
+            },
+            "financing_options": {
+                "channel": "DIGITAL",
+                "providers": [
+                    {
+                        "finance_footer": "Rates are between 10–36% APR. Subject to credit check and approval. Options depend on your purchase amount, and a down payment may be required. Estimated payment amount may exclude taxes and shipping. Payment options through Affirm are provided by these lending partners: <a class='affirm-loan-originator' href='https://www.affirm.com/lenders'>affirm.com/lenders</a>. Please note that you can’t use Affirm to pay for pre-ordered items. See <a class='affirm-loan-originator' href='https://www.affirm.com/faqs'>affirm.com/faqs</a> for details.",
+                        "finance_header": "Make easy monthly payments over 3, 6 or 12 months",
+                        "finance_message": "Pay over time on $50+ orders with Affirm. <a class='affirm-modal-trigger'>Learn more</a>",
+                        "finance_minimum_loan_amount": 50.0,
+                        "finance_provider": "Affirm",
+                        "finance_terms": [
+                            {
+                                "amount": 103.35,
+                                "apr": 19.99,
+                                "installment_amount": 34.45,
+                                "installment_count": 3,
+                                "interest_amount": 3.35,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "3 months",
+                                "installment_interval": "$34.45 every month"
+                            },
+                            {
+                                "amount": 105.93,
+                                "apr": 20.06,
+                                "installment_amount": 17.66,
+                                "installment_count": 6,
+                                "interest_amount": 5.93,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "6 months",
+                                "installment_interval": "$17.66 every month"
+                            },
+                            {
+                                "amount": 111.27,
+                                "apr": 20.18,
+                                "installment_amount": 9.27,
+                                "installment_count": 12,
+                                "interest_amount": 11.27,
+                                "minimum_loan_amount": 100.0,
+                                "billing_frequency": "12 months",
+                                "installment_interval": "$9.27 every month"
+                            }
+                        ],
+                        "financing_terms_url": "www.affirm.com/lenders",
+                        "financing_cell_header": "Pay over time",
+                        "financing_cell_body": "With Affirm on orders over $50",
+                        "is_finance_eligible": true,
+                        "is_finance_message_eligible": true
+                    }
+                ]
+            },
+            "free_shipping": {
+                "enabled": false
+            },
+            "desirability_cues": [],
+            "item": {
+                "product_classification": {
+                    "item_type": {
+                        "name": "Collectible Trading Cards",
+                        "type": "39980041"
+                    },
+                    "product_type": 544,
+                    "product_type_name": "TOYS",
+                    "purchase_behavior": "Discretionary"
+                },
+                "compliance": {
+                    "is_proposition_65": false
+                },
+                "enrichment": {
+                    "buy_url": "https://www.target.com/p/2024-panini-nfl-donruss-optic-football-trading-card-blaster-box/-/A-93319179",
+                    "image_info": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image": {
+                            "image_name": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                            "url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                        },
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ],
+                        "alternate_images": [
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                                "image_name": "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96",
+                                "image_name": "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            }
+                        ],
+                        "swatch_image": {}
+                    },
+                    "images": {
+                        "base_url": "//target.scene7.com/is/image/Target/",
+                        "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "primary_image": "GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5",
+                        "alternate_images": [
+                            "GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "alternate_image_urls": [
+                            "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6",
+                            "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                        ],
+                        "content_labels": [
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ddc6bb23-e1fd-4f0b-9a64-ee90c7377fd6"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_bff628a6-7a68-47a8-be60-1d0c64d64a96"
+                            },
+                            {
+                                "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e7ffefb-a016-4bf2-b665-23b10f0cd0a5"
+                            }
+                        ]
+                    },
+                    "return_policies": [
+                        {
+                            "user_type": "best_guest",
+                            "day_count": 0
+                        },
+                        {
+                            "user_type": "regular_guest",
+                            "day_count": 0
+                        }
+                    ]
+                },
+                "environmental_segmentation": {
+                    "is_hazardous_material": false
+                },
+                "formatted_return_method": "This item cannot be returned;  please reference our return policy for more information.",
+                "fulfillment": {
+                    "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes.",
+                    "shipping_exclusion_codes": [
+                        "American Samoa (see also separate entry under AS)",
+                        "Guam (see also separate entry under GU)",
+                        "Northern Mariana Islands",
+                        "Puerto Rico (see also separate entry under PR)",
+                        "United States Minor Outlying Islands",
+                        "Virgin Islands, U.S.",
+                        "APO/FPO"
+                    ],
+                    "is_gift_wrap_eligible": true,
+                    "purchase_limit": 2
+                },
+                "package_dimensions": {
+                    "depth": 5.0,
+                    "dimension_unit_of_measure": "INCH",
+                    "weight": 0.25,
+                    "weight_unit_of_measure": "POUND",
+                    "height": 2.75,
+                    "width": 3.5
+                },
+                "product_description": {
+                    "bullet_descriptions": [
+                        "<B>Suggested Age:</B> 6 Years and Up",
+                        "<B>Includes:</B> Cards",
+                        "<B>Package type:</B> Box Set"
+                    ],
+                    "downstream_description": "Panini presents the 2024 NFL Optic Donruss Football Trading Card Blaster Box. Each box contains 6 packs with 4 cards per pack. Look for Blaster Exclusive Rated Rookies Pink Parallels! Look for Ultra-Rare Inserts including Downtown, Downtown Duos, Uptowns, Hash Marks and More! Look for Autographs and Memorabilia Cards from some of the NFL's Hottest Players! Content may vary.<br />",
+                    "soft_bullets": {
+                        "bullets": [
+                            "6 Packs Per Box",
+                            "4 Cards Per Pack",
+                            "Content May Vary",
+                            "Collect Them All"
+                        ],
+                        "title": "highlights"
+                    },
+                    "title": "2024 Panini NFL Donruss Optic Football Trading Card Blaster Box",
+                    "soft_bullet_description": "&bull;6 Packs Per Box<br>&bull;4 Cards Per Pack<br>&bull;Content May Vary<br>&bull;Collect Them All"
+                },
+                "relationship_type_code": "SA",
+                "return_policy_url": "https://help.target.com/help/subcategoryarticle?childcat=Return+policy&parentcat=Returns+%26+Exchanges&searchQuery=search+help",
+                "ribbons": [
+                    "New At Target"
+                ],
+                "cart_add_on_threshold": 35.0,
+                "dpci": "087-12-2439",
+                "eligibility_rules": {
+                    "hold": {
+                        "is_active": true
+                    },
+                    "scheduled_delivery": {
+                        "is_active": true
+                    },
+                    "ship_to_guest": {
+                        "is_active": true
+                    }
+                },
+                "handling": {
+                    "import_designation_description": "Made in the USA or Imported"
+                },
+                "merchandise_classification": {
+                    "class_id": 12,
+                    "department_id": 87,
+                    "department_name": "GAMES/DIECAST/ACTION FIGURES"
+                },
+                "primary_barcode": "746134169717",
+                "primary_brand": {
+                    "canonical_url": "/b/nfl/-/N-5xwj6",
+                    "linking_id": "5xwj6",
+                    "name": "NFL"
+                },
+                "return_method": "No Return"
+            },
+            "price": {
+                "current_retail": 34.99,
+                "display_was_now": false,
+                "formatted_current_price": "$34.99",
+                "formatted_current_price_type": "reg",
+                "reg_retail": 34.99,
+                "location_id": 3991,
+                "external_system_id": "93319179-3991-34.99-2025060200"
+            }
+        }
+    },
+    "extensions": {
+        "experiments_viewed": [
+            {
+                "service": "redsky",
+                "tcin": "93319179",
+                "xv": [
+                    {
+                        "xt": "9068f49b-2bb0-4e77-a577-d8457b985c36"
+                    },
+                    {
+                        "xt": "39f53457-ee37-46f6-ba3f-b8a281ac8cb4"
+                    }
+                ]
+            }
+        ]
+    }
+}
