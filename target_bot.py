@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 import datetime as dt
 from bs4 import BeautifulSoup
 import undetected_chromedriver as uc
@@ -7,6 +8,13 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from dotenv import load_dotenv
+
+load_dotenv()  # loads environment variables
+
+TARGET_USERNAME = os.getenv('TARGET_USERNAME')
+TARGET_PASSWORD = os.getenv('TARGET_PASSWORD')
+
 
 # Target Test Account Credentials
 # Peter.frank.george@gmail.com
@@ -18,9 +26,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 # TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=93319179&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-93319179'
 
 # test target link for scraping
-TARGET_BROWSER_URL = 'https://www.target.com/p/2024-panini-nfl-totally-certified-football-trading-card-blaster-box/-/A-94467903#lnk=sametab'
-TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=94467903&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-94467903'
-TARGET_INSTOCK_STATUS_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/product_fulfillment_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&is_bot=false&tcin=94467903&store_id=1922&zip=76050&state=TX&latitude=32.340&longitude=-97.190&scheduled_delivery_store_id=1922&paid_membership=false&base_membership=false&card_membership=false&required_store_id=1922&visitor_id=0196B52D689B0201A17612E28C03710C&channel=WEB&page=%2Fp%2FA-94467903'
+TARGET_BROWSER_URL = os.getenv('TARGET_BROWSER_URL')
+TARGET_GET_URL  = os.getenv('TARGET_GET_URL')
+TARGET_INSTOCK_STATUS_URL  = os.getenv('TARGET_INSTOCK_STATUS_URL')
 
 # Parameters for the Target API request
 # Note: The API key and TCIN are specific to the product and should be updated accordingly.
@@ -88,6 +96,7 @@ def add_product_to_cart(purchase_limit):
   # Get the html of the page
     html = chrome_driver.page_source
     quantity_dropdown_xpath = '//button[.//span[text()="Qty"]]'
+    # Check if the quantity dropdown exists
 	# Click quantity drop down
     quantity_dropdown = chrome_driver.find_element(By.XPATH, quantity_dropdown_xpath)
     quantity_dropdown.click()
@@ -95,15 +104,51 @@ def add_product_to_cart(purchase_limit):
 
     purchase_quantity = chrome_driver.find_element(By.CSS_SELECTOR, f'[aria-label="{purchase_limit}"]')
     purchase_quantity.click()
+
+    wait = WebDriverWait(chrome_driver, timeout=10)
+    add_to_cart_btn = chrome_driver.find_element(By.ID, "addToCartButtonOrTextIdFor94467903")
+    wait.until(lambda _ : add_to_cart_btn.is_displayed())
+    add_to_cart_btn.click()
+
+    view_cart_and_checkout_btn = chrome_driver.find_element(By.LINK_TEXT, 'View cart & check out')
+    wait.until(lambda _ : view_cart_and_checkout_btn.is_displayed())
+    view_cart_and_checkout_btn.click()
     chrome_driver.implicitly_wait(2)
 
-    add_to_cart = chrome_driver.find_element(By.ID, "addToCartButtonOrTextIdFor94467903").click()
-    chrome_driver.implicitly_wait(2)
-
-    view_cart_and_checkout = chrome_driver.find_element(By.LINK_TEXT, 'View cart & check out').click()
-    chrome_driver.implicitly_wait(2)
     sign_in_to_checkout_xpath = '/html/body/div[1]/div[2]/div[4]/div/div[2]/div/div/div[1]/div[3]/div/div/button'
     sign_in_to_checkout = chrome_driver.find_element(By.XPATH, sign_in_to_checkout_xpath).click()
+    chrome_driver.implicitly_wait(2)
+
+    login_username_field = chrome_driver.find_element(By.NAME, 'username')
+    login_username_field.clear()  # Clear field
+    login_username_field.send_keys(TARGET_USERNAME)  # Enter text
+
+    login_password_field = chrome_driver.find_element(By.NAME, 'password')
+    login_password_field.clear()  # Clear field
+    login_password_field.send_keys(TARGET_PASSWORD)  # Enter text
+    chrome_driver.implicitly_wait(2)
+
+    signin_w_passwd_btn = chrome_driver.find_element(By.ID, 'login')
+    signin_w_passwd_btn.click()
+    chrome_driver.implicitly_wait(2)
+
+# TODO: add a check if this button exists after a certain wait time, then if not, continue with the script
+    skip_add_ph_num_btn = chrome_driver.find_element(By.LINK_TEXT, 'Skip')
+    skip_add_ph_num_btn.click()
+    chrome_driver.implicitly_wait(2)
+
+    shipping_addy_radio_btn = chrome_driver.find_element(By.NAME, 'addressSelection')
+    shipping_addy_radio_btn.click()
+
+    checkout_save_and_continue_btn = chrome_driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[3]/div[4]/button')
+    checkout_save_and_continue_btn.click()
+    
+    
+
+
+
+    
+
 
   except Exception as e:
         print("❌ item not added to cart: ", e)
