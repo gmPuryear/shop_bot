@@ -5,7 +5,7 @@ import wm_bot
 import target_bot
 
 def main():
-    # wm_bot.get_wm_product_data()
+    #Target bot
     target_bot.get_target_product_data()
 
 if __name__ == "__main__":

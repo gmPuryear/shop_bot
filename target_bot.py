@@ -15,16 +15,6 @@ load_dotenv()  # loads environment variables
 TARGET_USERNAME = os.getenv('TARGET_USERNAME')
 TARGET_PASSWORD = os.getenv('TARGET_PASSWORD')
 
-
-# Target Test Account Credentials
-# Peter.frank.george@gmail.com
-# 2felsman
-
-# ACTUAL URL for scraping Target product data
-# TARGET_BROWSER_URL = 'https://www.target.com/p/optic-4k-uhd-hdr-smart-tv-55in/-/A-93319179'
-# ACTUAL URL to retrieve product info with standard get requests
-# TARGET_GET_URL  = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=9f36aeafbe60771e321a7cc95a78140772ab3e96&tcin=93319179&is_bot=false&store_id=1922&pricing_store_id=1922&has_pricing_store_id=true&has_financing_options=true&include_obsolete=true&visitor_id=0196B52D689B0201A17612E28C03710C&skip_personalized=true&skip_variation_hierarchy=true&channel=WEB&page=%2Fp%2FA-93319179'
-
 # test target link for scraping
 TARGET_BROWSER_URL = os.getenv('TARGET_BROWSER_URL')
 TARGET_GET_URL  = os.getenv('TARGET_GET_URL')
@@ -54,10 +44,9 @@ def get_target_product_data():
 
     product_data = full_product_data["data"]["product"]
     title = product_data["item"]["product_description"]["title"]
-    price = product_data["price"]["formatted_current_price"]
-    purchase_limit = str(product_data["item"]["fulfillment"]["purchase_limit"])
+    price = product_data["price"]["current_retail"]
+    purchase_limit = product_data["item"]["fulfillment"]["purchase_limit"]
     print(f"{title} – {price} - Purchase limit: {purchase_limit} - Availability/eligibility goes here\n")
-
     with open("target_json_data.txt", "a", encoding = "utf-8") as file_to_write:
       current_date_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
       file_to_write.write("\n_______________________________ " + current_date_time + "_______________________________\n")
@@ -65,17 +54,18 @@ def get_target_product_data():
       json.dump(full_product_data, file_to_write, indent = 4, ensure_ascii = False)
       print(f"<script> tag with id=__NEXT_DATA__ found and saved to 'target_json_data.txt' from {TARGET_GET_URL}.")
     # Check if the product is in stock
-      check_in_stock(purchase_limit)
+      check_in_stock(purchase_limit, price)
   else:
     print(f"Error: {res.status_code} - not able to retrieve data from {TARGET_GET_URL}")
 
 
-def check_in_stock(purchase_limit):
+def check_in_stock(purchase_limit, price):
   in_stock_res = requests.get(TARGET_INSTOCK_STATUS_URL, headers=headers)
   if in_stock_res.status_code == 200:
     in_stock_data = in_stock_res.json()
     shipping = in_stock_data["data"]["product"]["fulfillment"]["shipping_options"]
-    if shipping["availability_status"] == "IN_STOCK" and shipping["available_to_promise_quantity"] > 0:
+    print(price)
+    if shipping["availability_status"] == "IN_STOCK" and shipping["available_to_promise_quantity"] > 0 and price < 35.00:
       print("✅ Product is in stock!")
       add_product_to_cart(purchase_limit)
     else:
@@ -121,35 +111,28 @@ def add_product_to_cart(purchase_limit):
 
     login_username_field = chrome_driver.find_element(By.NAME, 'username')
     login_username_field.clear()  # Clear field
-    login_username_field.send_keys(TARGET_USERNAME)  # Enter text
+    login_username_field.send_keys(TARGET_USERNAME)  # Enter username text
 
     login_password_field = chrome_driver.find_element(By.NAME, 'password')
     login_password_field.clear()  # Clear field
-    login_password_field.send_keys(TARGET_PASSWORD)  # Enter text
+    login_password_field.send_keys(TARGET_PASSWORD)  # Enter password text
     chrome_driver.implicitly_wait(2)
 
     signin_w_passwd_btn = chrome_driver.find_element(By.ID, 'login')
     signin_w_passwd_btn.click()
     chrome_driver.implicitly_wait(2)
 
-# TODO: add a check if this button exists after a certain wait time, then if not, continue with the script
+# TODO: add a check if this button exists after a certain wait time, then if not, continue with the script this element may be not needed?
     skip_add_ph_num_btn = chrome_driver.find_element(By.LINK_TEXT, 'Skip')
     skip_add_ph_num_btn.click()
     chrome_driver.implicitly_wait(2)
 
-    shipping_addy_radio_btn = chrome_driver.find_element(By.NAME, 'addressSelection')
+    shipping_addy_radio_btn = chrome_driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[3]/div[2]/div[1]/div/div/input')
     shipping_addy_radio_btn.click()
 
     checkout_save_and_continue_btn = chrome_driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[3]/div[4]/button')
     checkout_save_and_continue_btn.click()
     
-    
-
-
-
-    
-
-
   except Exception as e:
         print("❌ item not added to cart: ", e)
   finally:
